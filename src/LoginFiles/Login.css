@@ -1,0 +1,60 @@
+.login{
+    display: flex; 
+    height: 100vh;
+    background-color: white; 
+    flex: 1;
+}
+
+.loginLeft__container{
+    display: flex;
+    height: 100vh;
+    width: 35%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9397FF;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+.loginLeft__container > img{
+
+    display: flex;
+    width: 350px ;
+    height: 400px;
+    margin-bottom: 40px;
+    background-color:white;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 3px rgba(0, 0, 0, 0.24)
+    
+}
+
+
+.loginRight__contianer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:white;
+    place-items: center;
+    flex: 1;
+
+}
+
+
+img{
+    object-fit: contain;
+    height: 150px;
+    
+}
+
+.loginRight__contianer > button{
+
+    background-color:green;
+    color: white;
+
+
+}

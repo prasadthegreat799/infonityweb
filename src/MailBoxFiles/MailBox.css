@@ -1,0 +1,84 @@
+.mailbox{
+    flex: 1;
+}
+
+.mailbox__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    border: 1px solid lightgrey;
+}
+
+.mailbox__headerLeft{
+    display: flex;
+}
+
+.mailbox__headerRight{
+    display: flex;
+    align-items: center;
+}
+
+.mailbox__headerRight > p{
+
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.mailbox__headerRight > p > .MuiSvgIcon-root{
+
+            margin-right:  5px !important;
+            font-size: 16px;
+}
+
+.mailbox__chat > h1{
+
+    display: flex;
+    flex: 0.6;
+    justify-content:center;
+}
+
+.message__box {
+
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message__box > .mailbox__chatBox{
+    background-color: white;
+    border-radius:  20px;
+    justify-content: center;
+    font-size: 12px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 100%;
+
+    
+}
+
+
+
+.mailbox__chatBoxInput > input{
+
+    background-color: transparent;
+    border: none;
+    min-width: 170vh;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.mailbox__chatBoxTools{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
